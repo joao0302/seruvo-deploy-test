@@ -3,7 +3,7 @@
 import { createServer } from 'node:http';
 
 // Para o teste de redeploy: troque 'v1' por 'v2', faça commit e clique em Redeploy no Seruvo.
-const VERSION = 'v1';
+const VERSION = 'v2';
 const PORT = Number(process.env.PORT ?? 3000);
 
 const send = (res, status, body) => {
